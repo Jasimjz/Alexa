@@ -46,7 +46,7 @@ notheri()
 var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
-if (Config.LANG == 'EN') ldc = '*ith njanum vilikkilla neeyum villikilla* \n 😅 *arod parayan aar kelkaan* \n *edth purath aakiyathin shesham aan parayunne* 😅😅'
+if (Config.LANG == 'EN') ldc = '*Action Required!* \n 😅 *Bad word detected And Removed Sucsessfully* \n *💘If Anything Wrong Please Contact Admin*'
 if (Config.LANG == 'ML') ldc = '*ലിങ്ക് കണ്ടെത്തി!*'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
@@ -55,16 +55,16 @@ if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (therikick_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
-        let regex1 = new RegExp('thayoli')
-        let regex2 = new RegExp('thaayoli')
-        let regex3 = new RegExp('thayolli')
-        let regex4 = new RegExp('thaayolli')
-        let regex5 = new RegExp('thayyoli')
-        let regex6 = new RegExp('Thayoli')
-        let regex7 = new RegExp('Thaayoli')
-        let regex8 = new RegExp('Thayolli')
-        let regex9 = new RegExp('Thaayolli')
-        let regex10 = new RegExp('Thayyoli')
+        let regex1 = new RegExp('sex Video')
+        let regex2 = new RegExp('Fuck You')
+        let regex3 = new RegExp('thayoli')
+        let regex4 = new RegExp('Poori')
+        let regex5 = new RegExp('Sex')
+        let regex6 = new RegExp('Fuck')
+        let regex7 = new RegExp('Mother Fucker')
+        let regex8 = new RegExp('Pussy')
+        let regex9 = new RegExp('Dick')
+        let regex10 = new RegExp('Fucker')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
