@@ -22,8 +22,8 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         l_dsc = 'chilla theri vilichaal spot kick. -bot owner command'
         alr_on = 'Antilink is already open!'
         alr_off = 'Antilink is currently closed!'
-        THERI_on = '*eni chilla theri vilcha kick akkum*'
-        THERI_off = '*eni enth theri vennelum vili*'
+        THERI_on = '*anti badwords mode is on*'
+        THERI_off = '*anti badwords mode turned on successfully....*'
     }
    
     if (config.LANG == 'HI') {
